@@ -1,2 +1,2 @@
-# Ejercicio-1---5.1
-Ejercicio 1 - 5.1
+# Ejercicio 1: Sistema de Figuras Geométricas
+
