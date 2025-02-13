@@ -1,10 +1,10 @@
-class Triángulo(val base: Double, val altura: Double, color: String) : Figura(color) {
-
-    constructor(base: Double, altura: Double) : this(base, altura, "Blanco")
+class Triángulo(private val base: Double, val altura: Double, color: String?) : Figura(color) {
     override fun area(): Double {
         return (base * altura) / 2
     }
     override fun perimetro(): Double {
-        return base * 3
+
+        val hipotenusa = Math.sqrt(base*base+altura*altura)
+        return base+altura+hipotenusa
     }
 }
